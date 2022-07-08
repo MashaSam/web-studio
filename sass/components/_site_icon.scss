@@ -1,0 +1,26 @@
+
+.site {
+    display: flex;
+    
+
+    &__link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: transparent;
+    display: flex;
+    fill: #AFB1B8;
+    justify-content: center;
+    padding: 12px;
+      &:hover,
+      &:focus {
+      background-color: var(--accent-color);
+      fill: #FFFFFF;
+      transition: var(--transition);
+      }
+    }
+}
+
+.site__item+.site__item {
+    margin-left: 10px;
+}

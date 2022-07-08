@@ -1,0 +1,113 @@
+.box-mail {
+    display: block ;
+    margin-left: auto;
+    margin-right: auto;
+     text-align: center;
+     text-align: center;
+
+     @media screen and(min-width: 1200px){
+     text-align: left; 
+     margin: 0;
+     }
+
+}
+
+.box-input-btn {
+    margin-left: auto;
+    margin-right: auto;
+    // display: block;
+}
+
+.form-mail__label {
+    @include font(14px, 700, 16px, null);
+    display: block;
+    margin-bottom: 20px;
+   
+    color: var(--addres-color);
+    text-transform: uppercase;
+}
+
+    
+   
+
+.box-input-btn .input-email {
+    // width: 358px;
+
+    // height: 50px;
+    // display: block;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    padding-top: 15px;
+    padding-right: 16px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+    color: var(--addres-color);
+    // margin-right: 12px;
+    margin-bottom: 20px;
+    width: 358px;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+
+}
+
+.input-email:focus,
+.input-email:hover {
+    border: 1px solid var(--accent-color);
+    outline: none;
+
+
+}
+
+
+.footer-btn {
+    @include font(16px, 700, 30px, 0.06em);
+    text-align: center;
+    position: relative;
+    
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 200px;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 29px;
+    padding-bottom: 10px;
+    padding-right: 62px;
+    background-color: var(--accent-color);
+    color: var(--addres-color);
+    align-items: center;
+    justify-items: center;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: var(--transition);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    @media screen and(min-width: 1200px){
+    display: inline-block;
+    margin-left: 12px;
+     }
+
+    
+    &:hover{
+        background-color: #188CE8;
+    }
+    
+}
+
+
+.icon-btn {
+    align-items: center;
+    justify-items: center;
+    position: absolute; 
+    margin-left: 10px;
+    top: 13px;
+    right: 28px;
+    
+
+}
+
+
